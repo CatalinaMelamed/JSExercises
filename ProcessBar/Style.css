@@ -3,9 +3,8 @@
 	background-color: #ccc;
 	border-radius: 7px;
 	margin-right: 500px;
-
-
 }
+
 .paragraph{
 	position: absolute;
 	margin: 0%;
@@ -15,6 +14,7 @@
 	height: 20px;
 	border-radius: 7px;
 }
+
 #play-animation {
 	animation: progress-animation 5s forwards;
 }
