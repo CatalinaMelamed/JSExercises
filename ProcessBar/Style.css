@@ -1,0 +1,30 @@
+.container {	
+	height: 25px;
+	background-color: #ccc;
+	border-radius: 7px;
+	margin-right: 500px;
+
+
+}
+.paragraph{
+	position: absolute;
+	margin: 0%;
+}
+
+.barra {
+	height: 20px;
+	border-radius: 7px;
+}
+#play-animation {
+	animation: progress-animation 5s forwards;
+}
+
+@keyframes progress-animation {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}

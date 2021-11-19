@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <script src="function.js"></script>
+</head>
+
+<body>
+    <div>        
+        <h2>Barra de Progreso</h2>
+        <div>
+            <div class="container_1">
+                    <div class="barra" id="bar_1">
+                        <p class="paragraph">Cargado <span id="demo">0</span> de 10 Pedidos</p>          
+                    </div>               
+            </div>
+            <div>
+                <button onclick="addOrder(1,'green');">Subir Pedidos</button>
+                <button onclick="subtractOrder(1, 'red');">Restar Pedidos</button>
+            </div>
+            <div>
+                <p class="complete"  id="messagebar1"></p>
+            </div>
+        </div>
+
+        <div>
+            <div class="container_2">
+                    <div class="barra" id="bar_2">
+                        <p class="paragraph">Cargado <span id="demo2">0</span> de 10 Pedidos</p>          
+                    </div>               
+            </div>
+            <div>
+                <button class="button" onclick="addOrder(2,'orange');">Subir Pedidos</button> <!-- gracias al parametro identifico las barras por el numBarra -->
+                <button class="button-negative" onclick="subtractOrder(2, 'violet');">Restar Pedidos</button>
+            </div>
+            <div>
+                <p class="complete" id="messagebar2"></p>
+            </div>
+        </div>
+
+        <div>
+            <div class="container_3">
+                    <div class="barra" id="bar_3">
+                        <p class="paragraph">Cargado <span id="demo3">0</span> de 10 Pedidos</p>          
+                    </div>               
+            </div>
+            <div>
+                <button class="button"onclick="addOrder(3, 'lightblue');">Subir Pedidos</button> <!-- gracias al parametro identifico las barras por el numBarra -->
+                <button class="button-negative" onclick="subtractOrder(3, 'grey');">Restar Pedidos</button>
+            </div>
+            <div>
+                <p class="complete"  id="messagebar3"></p>
+            </div>
+        </div>
+
+        <div>
+            <div class="container_4">
+                    <div class="barra" id="bar_4">
+                        <p class="paragraph">Cargado <span id="demo4">0</span> de 10 Pedidos</p>          
+                    </div>               
+            </div>
+            <div>
+                <button class="button" onclick="addOrder(4, 'blue');">Subir Pedidos</button> <!-- gracias al parametro identifico las barras por el numBarra -->
+                <button class="button.button-negative" onclick="subtractOrder(4, 'yellow');">Restar Pedidos</button>
+            </div>
+            <div>
+                <p class="complete" id="messagebar4"></p>
+            </div>
+        </div>
+        <div>
+            <div class="container_5">
+                    <div class="barra" id="bar_5">
+                        <p class="paragraph">Cargado <span id="demo5">0</span> de 10 Pedidos</p>          
+                    </div>               
+            </div>
+            <div>
+                <button class="button" onclick="addOrder(5,'pink');">Subir Pedidos</button> <!-- gracias al parametro identifico las barras por el numBarra -->
+                <button class="button-negative" onclick="subtractOrder(5, 'brown');">Restar Pedidos</button>
+            </div>
+            <div>
+                <p class="complete" id="messagebar5"></p>
+            </div>
+        </div>
+    </div> 
+        
+</body>
+</html>
