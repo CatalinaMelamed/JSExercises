@@ -8,30 +8,36 @@
   </head>
   <body>
     <div class="container">
+
       <h1 class="Titule">Lista de Tareas</h1>
-      <p>
-        <input id="new-task" type="text" placeholder="Agregar nueva tarea"><button class="button1">Agregar</button>
-      </p>
       
-      <h3 class="todo-tasks">Tareas Pendientes</h3>
-      <ul id="incomplete-tasks">
-        <li><input type="checkbox"><input type="text">
-          <button class="edit">Editar</button>
-          <button class="delete">X</button>
-        </li>
-        
-        
-      </ul>
+      <div class="add-task">
+        <input class="new-task" type="text" placeholder="Agregar nueva tarea">
+        <button class="btn add">Agregar</button>
+      </div>
       
-      <h3>Tareas Completadas</h3>
-      <ul id="completed-tasks">
-        <li><input type="checkbox" checked><input type="text">
-            <button class="delete">X</button>
-        </li>
-      </ul>
+      <div class="add-task">
+        <h2 class="todo-tasks"> Pendientes</h2>
+        <ul>
+          <li>
+              <input type="checkbox"><input type="text">
+              <button class="btn edit">Editar</button>
+              <button class="btn delete">X</button>
+          </li>        
+        </ul>  
+      </div>
+      
+      <div class="add-task">
+        <h2 class="todo-tasks"> Completados</h2>
+        <ul>
+          <li>
+              <input type="checkbox"><input type="text">
+              <button class="btn edit">Editar</button>
+              <button class="btn delete">X</button>
+          </li>
+        </ul>
+      </div>      
+
     </div>
-
-    <script type="text/javascript" src="app.js"></script>
-
   </body>
 </html>
